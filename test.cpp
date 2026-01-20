@@ -30,7 +30,7 @@ int main()
 {
        try {
     
-    testWithQueryFile("small_query.txt", true);
+    testRecursiveringoram();
 }
       catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
